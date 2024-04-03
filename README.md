@@ -1,0 +1,2 @@
+# Lojinha
+ Atividade avaliativa (Lojinha)
