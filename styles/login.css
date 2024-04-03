@@ -1,0 +1,25 @@
+:root{
+    --darkBlue: #171D25;
+    --darkBlue2: #1B2C44;
+    --darkBlue3: #1C3B7F;
+}
+
+main{
+    height: 655px; 
+
+}
+
+#backlogin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/backgroundLogin.svg);
+}
+
+#login{
+    width: 50%;
+    height: 70%;
+    background-color: grey;
+}
