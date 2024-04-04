@@ -4,10 +4,10 @@
     font-family: "Open Sans"
 }
 
-
-
 :root{
     --darkBlue: #151D27;
+    --footerBlack: #020612 ;
+    --borderShadow: #263241;
 }
 
 header{
@@ -18,11 +18,17 @@ header{
     border-bottom: solid 0.5px rgba(175, 175, 175, 0.086);
 }
 
-header li{
+header li , header a{
     list-style: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none; 
+    cursor: pointer;
 }
 
 #headerlogo{
+    width: 181px;
     display: flex;
     align-items: center;
     padding: 20px 0px 20px 30px;
@@ -32,39 +38,47 @@ header li{
 #flexheader{
     display: flex;
     align-items: center;
+    width:640px
+}
 
+#flexheader ul{
+    width: 100%;
+    gap: 3.5%;
+    display: flex
 }
 
 #globalheader{
     display: flex;
     align-items: center;
-    padding: 0px 20px 0px 30px;
+    width: 230px;
 }
 
-
-#flexheader ul , #globalheader ul{
+#globalheader ul{
+    width: 100%;
     display: flex;
-
-}
-
-#flexheader a , #globalheader a{
-    color: white;
-    text-decoration: none; 
+    gap: 26%;
 }
 
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--darkBlue);
+    background-color: var(--footerBlack);
 }
 
 #footercopy{
     color: white;
     width: 57%;
     font-size: 14px;
-    padding: 12px 0px;
+    padding: 20px 0px;
     display: flex;
     justify-content: space-between;
+    border-top: solid 0.5px rgba(175, 175, 175, 0.086);;
+}
+
+#footercopy p{
+    display: flex;
+    align-items: center;
+    gap: 6%;
 }
 

@@ -1,0 +1,53 @@
+body{
+    background-color: var(--darkBlue);
+}
+
+#games{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0px;
+}
+
+.boxgames{
+   width: 392px;
+   height: 305px;
+   display: flex;
+   background-color: #202C3A;
+   border-radius: 8px;
+}
+
+.INP{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.INP p{
+    margin: 0px 5px 15px 5px;
+}
+
+.INP img{
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 5px;
+
+}
+
+.INP a{
+    text-decoration: none;
+    color: white;
+}
+
+.INP button{
+    width: 20%;
+    height: 12%;
+    border-radius: 3px;
+    border: 1.5px solid var(--borderShadow);
+    background-color: #384657;
+}

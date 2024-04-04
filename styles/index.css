@@ -1,6 +1,72 @@
-:root{
-    --darkBlue: #171D25;
-    --darkBlue2: #1B2C44;
-    --darkBlue3: #1C3B7F;
-    --
+body{
+    background-color: var(--darkBlue);
+}
+
+#bemvindo{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 30px 0px ;
+    gap: 20px; 
+}
+#home{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color: var(--darkBlue);
+}
+
+#bannerGames img{
+    border: solid 1.5px var(--borderShadow);
+    cursor: pointer;
+}
+
+.drop{
+    display: flex;
+    align-items: center;
+}
+
+.dropDir{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+#bannerGames{
+    display: flex;
+}
+
+#gamesSec{
+    display: flex;
+    flex-direction: column;
+}
+
+#point{
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkBlue);
+    margin-top: -35px;
+}
+
+#point a{
+    font-size: 45px;
+    text-decoration: none;
+    color: #5D7087;
+}
+
+#point a:hover{
+    color: #0095C6;
+}
+
+
+#HSSB{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#GoW{
+    width: 70%;
 }

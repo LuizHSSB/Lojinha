@@ -6,42 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/geral.css">
     <link rel="stylesheet" href="../styles/login.css">
-    <link rel="shortcut icon" href="../img/steam40px.svg" type="image/x-icon">
-    <title>Iniciar sessão</title>
+    <link rel="shortcut icon" href="../img/nuuvem/Nuuvem.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Nuuvem - Ainda não sei kk</title>
 </head>
 <body>
     <header>
         <div id="headerlogo">
-            <img id="pad" src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="176px" height="44px
-            " alt="Link to Steam Homepage">
+            <img src="../img/nuuvem/Nuuvem.svg" width="40px" height="40px" alt="">
+            <img src="../img/nuuvem/Nuuvem_name.svg" width="126.66px" height="20px" alt="">
         </div>
         <div id="flexheader">
-            <a href="#">LOJA</a>
-            <a href="#">COMUNIDADE</a>
-            <a href="#">SOBRE</a>
-            <a href="#">SUPORTE</a>
+            <ul>
+                <li>
+                    <img src="../img/nuuvem/destaquesIcon.svg" alt="">
+                    <a href="catalogo.html">Destaques</a>
+                    <img src="../img/nuuvem/expand_more.svg" alt="">
+                </li>
+                <li>
+                    <img src="../img/nuuvem/PC.svg" alt="">
+                    <a href="#">PC</a>
+                    <img src="../img/nuuvem/expand_more.svg" alt="">
+                </li>
+                <li>
+                    <img src="../img/nuuvem/controller.svg" alt="">
+                    <a href="#">Consoles</a>
+                    <img src="../img/nuuvem/expand_more.svg" alt="">
+                </li>
+                <li>
+                    <img src="../img/nuuvem/mobileIcon.svg" alt="">
+                    <a href="#">Mobile</a>
+                    <img src="../img/nuuvem/expand_more.svg" alt="">
+                </li>
+                <li>
+                    <img src="../img/nuuvem/more-horizontal.svg" alt="">    
+                </li>
+                <li>
+                    <a href="#">
+                        Buscar
+                        <img src="../img/nuuvem/search.svg" alt="">
+                    </a>
+                </li>
+            </ul>
         </div>
         <div id="globalheader">
-            <a href="#">Instalar o Steam</a>
-            <a href="pages/login.html">Iniciar sessão</a>
-            <a href="#">Idioma</a>
-            <img src="img/arrow_drop_down.svg" width="15px" height="15px" alt="">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="../img/nuuvem/shopping_cart.svg" alt="">
+                        0
+                    </a>
+                 </li>
+                <li>
+                    <a href="../pages/login.html">
+                        <img src="../img/nuuvem/persontroll.svg" alt="">
+                        Entrar
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
-        <div id="backlogin">
-            <div id="login">
-                
+        <div id="enter">
+            <a class="own" href="#"><b>Entrar</b></a>
+            <a href="sign.html">Criar minha conta</a>
+        </div>
+        <div id="loginArea">
+            <div id="loginSenha">
+                <label class="bar" for="#"><input type="email" placeholder=" * Email" required></label>
+                <label class="bar" for="#"><input type="password" placeholder=" * Senha" required></label>
+            </div>    
+            <div id="forgotAndRemind">
+                <label id="check" for="#"><input type="checkbox">⠀Lembrar</label>
+                <a href="forgotpass.html">Esqueci minha senha</a>
+            </div>
+            <div id="acessar">
+                <button id="buttonAcess" type="button"><a href="catalogo.html"><b>ACESSAR</b></a></button>
             </div>
         </div>
     </main>
     <footer>
-        <div id="footerlogos">
-            <img src="https://store.cloudflare.steamstatic.com/public/images/footerLogo_valve_new.png" width="88px" height="25px" alt="">
-            <img src="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png" width="92px" height="26px" alt="">
-        </div>
         <div id="footercopy">
-            <p>&copy;2024 Valve Corporation. Todos os direitos reservados. Todas as marcas comerciais são propriedade dos respetivos proprietários nos E.U.A. e outros países. IVA incluído em todos os preços onde aplicável.</p>
+            <p>
+            <img src="../img/nuuvem/logo-nuuvem-contrast.svg" width="108.02" height="24" alt="">
+            &copy;2024</p>  
+            <p>Todos os direitos reservados. </p>
         </div>
     </footer>
 </body>

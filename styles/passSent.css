@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--darkBlue);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#loginSenha{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #0B7AA2;
+    text-align: center;
+}
+
+#loginSenha input{
+    padding: 9px 0px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 0.5px #0099CC;
+}
+
+#loginSenha a{
+    width: 100%;
+    height: 100%;
+}
+
+#loginSenha a{
+
+    color: white;
+}

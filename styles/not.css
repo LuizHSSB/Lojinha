@@ -1,0 +1,15 @@
+main{
+    height:85.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkBlue);
+    color: white;
+    flex-direction: column;
+    gap: 5%;
+}
+
+main a{
+    color: rgb(78, 189, 233);
+    text-decoration: none;
+}
