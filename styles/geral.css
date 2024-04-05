@@ -27,12 +27,15 @@ header li , header a{
     cursor: pointer;
 }
 
+#headerlogo img{
+    margin-right: 14px;
+}
+
 #headerlogo{
     width: 181px;
     display: flex;
     align-items: center;
     padding: 20px 0px 20px 30px;
-    gap: 8%;
 }
 
 #flexheader{
