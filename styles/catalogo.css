@@ -45,9 +45,33 @@ body{
 }
 
 .INP button{
-    width: 20%;
-    height: 12%;
+    width: 28%;
+    height: 16%;
     border-radius: 3px;
     border: 1.5px solid var(--borderShadow);
     background-color: #384657;
+}
+
+.INP button:hover{
+    background-color: #262f3a;
+}
+
+#destaque{
+
+    border-bottom: solid 3px #FF9900;
+}
+
+#pc{
+
+    border-bottom: solid 3px #FF9900;
+}
+
+#consoles{
+
+    border-bottom: solid 3px #FF9900;
+}
+
+#mobile{
+
+    border-bottom: solid 3px #FF9900;
 }
